@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Monopoly E-Banking</string>
+    <string name="title_main">Main</string>
+    <string name="title_reserve">Reserve</string>
+    <string name="title_wheel">Wheel</string>
+    <string name="title_buy_card">Buy Cards</string>
+    <string name="title_view_card">View Cards</string>
+    <string name="title_history">History</string>
+    <string name="title_players_money">Player\'s Money</string>
+    <string name="title_more">More</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

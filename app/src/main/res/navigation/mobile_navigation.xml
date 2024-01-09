@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_main">
+
+    <fragment
+        android:id="@+id/navigation_main"
+        android:name="com.monopolye_banking.Main"
+        android:label="@string/title_main"
+        tools:layout="@layout/fragment_main" />
+
+    <fragment
+        android:id="@+id/navigation_reserve"
+        android:name="com.monopolye_banking.Reserve"
+        android:label="@string/title_reserve"
+        tools:layout="@layout/fragment_reserve" />
+
+    <fragment
+        android:id="@+id/navigation_history"
+        android:name="com.monopolye_banking.History"
+        android:label="@string/title_history"
+        tools:layout="@layout/fragment_history" />
+
+    <fragment
+        android:id="@+id/navigation_buy_card"
+        android:name="com.monopolye_banking.BuyCard"
+        android:label="@string/title_buy_card"
+        tools:layout="@layout/fragment_buy_card" />
+
+    <fragment
+        android:id="@+id/navigation_view_card"
+        android:name="com.monopolye_banking.ViewCards"
+        android:label="@string/title_view_card"
+        tools:layout="@layout/fragment_view_cards" />
+
+    <fragment
+        android:id="@+id/navigation_wheel"
+        android:name="com.monopolye_banking.Wheel"
+        android:label="@string/title_wheel"
+        tools:layout="@layout/fragment_wheel" />
+
+    <fragment
+        android:id="@+id/navigation_players_money"
+        android:name="com.monopolye_banking.PlayersMoney"
+        android:label="@string/title_players_money"
+        tools:layout="@layout/fragment_players_money" />
+
+    <fragment
+        android:id="@+id/navigation_more"
+        android:name="com.monopolye_banking.More"
+        android:label="@string/title_more"
+        tools:layout="@layout/fragment_more" />
+
+
+</navigation>
